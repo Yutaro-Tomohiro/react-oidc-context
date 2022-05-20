@@ -39,6 +39,7 @@
     "prepare": "husky install"
   },
   "peerDependencies": {
+    "oidc-client-ts": "github:Yutaro-Tomohiro/oidc-client-ts#publish-implicit_flow",
     "react": ">=16.8.0"
   },
   "devDependencies": {
@@ -70,8 +71,5 @@
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": "eslint --cache --fix"
-  },
-  "dependencies": {
-    "oidc-client-ts": "github:Yutaro-Tomohiro/oidc-client-ts#publish-implicit_flow"
   }
 }
